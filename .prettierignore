@@ -1,0 +1,20 @@
+# Compiled output
+/api/schema.graphql
+/db/types.ts
+/**/__generated__
+/.cache/
+/*/dist/
+
+# Yarn
+.yarn/cache
+.yarn/plugins/*/**
+.yarn/releases
+.yarn/sdks
+.yarn/unplugged
+.yarn/*.*
+.pnp.*
+
+# Misc
+.husky
+*.hbs
+/tsconfig.json

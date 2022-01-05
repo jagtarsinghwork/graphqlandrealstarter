@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2020", "WebWorker"],
+    "types": [
+      "@types/webpack-env",
+      "@emotion/react/types/css-prop",
+      "@cloudflare/workers-types",
+      "jest"
+    ],
+    "jsxImportSource": "@emotion/react"
+  },
+  "include": [
+    "**/*.hooks.ts",
+    "**/*.hooks.tsx",
+    "**/*.lazy.ts",
+    "**/*.lazy.tsx",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
